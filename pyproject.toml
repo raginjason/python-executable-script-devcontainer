@@ -11,6 +11,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[project.scripts]
+my-proj-cli = "myproj.cli:main"
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
