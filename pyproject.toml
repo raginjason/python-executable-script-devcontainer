@@ -10,6 +10,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+readme = "README.md"
 
 [project.scripts]
 my-proj-cli = "myproj.cli:main"
