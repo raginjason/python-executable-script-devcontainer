@@ -1,0 +1,18 @@
+{
+    "name": "Python executable script",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "postStartCommand": "pip install -e .",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "editorconfig.editorconfig",
+                "exiasr.hadolint",
+                "ms-azuretools.vscode-docker",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+[project]
+name = "my-proj"
+version = "0.0.1"
+authors = [
+  { name="Jason Walker", email="ragin.jason@me.com" },
+]
+description = "An example project that brings Python scripts and devcontainers together"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
